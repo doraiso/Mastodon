@@ -7,7 +7,7 @@ from mastodon import Mastodon
 url = 'https://mstdn.jp/'
 cid_file = 'client_id.txt'
 token_file = 'access_token.txt'
-imgfile1 = 'img1.jpg'
+imgfile1 = 'image/img1.jpg'
 
 mastodon = Mastodon(
     client_id=cid_file,
