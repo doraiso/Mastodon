@@ -1,8 +1,6 @@
 import sys
-import os
 from mastodon import Mastodon
 
-os.chdir('Mastodon')
 url = 'https://mstdn.jp/'
 cid_file = 'client_id.txt'
 token_file = 'access_token.txt'
