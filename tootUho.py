@@ -13,7 +13,7 @@ mastodon = Mastodon(
 
 strinit = 'ンホ'
 strnho = ['ォ','ッ','！']
-repnum = 3
+repnum = 100
 
 def nho(strinput):
     str = ''

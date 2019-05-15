@@ -11,4 +11,19 @@ mastodon = Mastodon(
     api_base_url=url
 )
 
-mastodon.toot('はじめてのトゥート #Python練習')
+str = 'ンホ'
+rep = 100
+
+for num in range(rep):
+    str += 'ォ'
+
+for num in range(rep):
+    str += 'ッ'
+
+for num in range(rep):
+    str += '！'
+
+# mastodon.toot('はじめてのトゥート #Python練習')
+# mastodon.toot(str)
+print(str)
+

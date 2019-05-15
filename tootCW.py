@@ -8,7 +8,7 @@ cid_file = 'client_id.txt'
 token_file = 'access_token.txt'
 miso = ''
 
-for num in range(50):
+for num in range(80):
     miso += 'みそみそ～'
 
 mastodon = Mastodon(
